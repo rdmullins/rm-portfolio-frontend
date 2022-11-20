@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+:root {
+    --rm-background: #A6935A;
+    --rm-card-body: #595139;
+    --rm-accent: #495AA6;
+    --rm-body-text: #D9D7C1;
+    --rm-card-button: #401E0A;
+}
+
+body {
+    color: var(--rm-body-text);
+    background-color: var(--rm-background);
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    background-color: var(--rm-card-button);
+    border: 0pt;
+}
+
+.btn:hover {
+    background-color: var(--rm-background);
+    transition: 0.7s;
+}
+
+.card-bg {
+    background-color: var(--rm-card-body);
+}

@@ -6,11 +6,11 @@ function Splash(props) {
     ;}
 
     return (
-        <div>
-            <div className="row">
+        <div className="container p-5">
+            <div className="row text-center d-flex align-items-center">
                 <div className="col">
-                    <h1>Roger's Portfolio Splash Page</h1>
-                    <button onClick={() => {handleClick()}}>Click</button>
+                    <img src="https://drive.google.com/uc?id=1Zac67PAqaBcWdpULPvCjICNAdOMDMs8a"/>
+                    <p className="p-5"><h1><a onClick={() => {handleClick()}}>View Portfolio</a></h1></p>
                 </div>
             </div>
         </div>

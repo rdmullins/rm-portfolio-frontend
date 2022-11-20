@@ -3,7 +3,7 @@ function PortfolioCards(props) {
     const cardsList = props.portfolioData.map(project => 
         (
             <div className = 'col-xl-4 col-md-6 col-xxl-3'>
-                <div className="card shadow-lg h-100 text-center">
+                <div className="card shadow-lg h-100 text-center card-bg p-2">
                     <img src={project.screenshot} className="card-img-top" alt="Screenshot of project"/>
                 
                     <div className="card-header"><h5 className="card-title menu-title">{project.title}</h5></div>
@@ -27,6 +27,11 @@ function PortfolioCards(props) {
 
     return (
         <div className="container">
+            <div className="row text-center">
+                <div className="col">
+                    <h1>Projects</h1>
+                </div>
+            </div>
             <div className="row">
                 {cardsList}
             </div>
