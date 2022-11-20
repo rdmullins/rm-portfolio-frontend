@@ -2,12 +2,13 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-//import Splash from "./Splash";
+import Splash from "./Splash";
 //import "./App.css";
 //import Navbar from "./Navbar";
 //import Footer from "./Footer";
 
 function App() {
+    console.log("Started App")
 
     const [portfolioData, setPortfolioData] = useState([]);
     const [page, setPage] = useState("landing");
@@ -28,11 +29,13 @@ function App() {
             <span className="visually-hidden">Loading...</span>
           </div>
           );
+        
+        console.log(portfolioData);
     
         return (
           <div className="container">
             {(page === "landing") && <Splash pageUpdater={setPage} />}
-            {(page > 0 && page != 8) && <Navbar pageUpdater={setPage} />}
+            {/* /*{(page > 0 && page != 8) && <Navbar pageUpdater={setPage} />}
             {(page === 1) && <MenuCard page={page} menuData={appetizers} pageUpdater={setPage} />}
             {(page === 2) && <MenuCard page={page} menuData={breakfast} pageUpdater={setPage} />}
             {(page === 3) && <MenuCard page={page} menuData={brunch} pageUpdater={setPage} />}
@@ -42,7 +45,7 @@ function App() {
             {(page === 7) && <MenuCard page={page} menuData={desserts} pageUpdater={setPage} />}
             {(page === 8) && <Menu pageUpdater={setPage} />}
             {(page === 9) && <Specials menuData={specials} pageUpdater={setPage} />}
-            {(page > 0 && page != 8) && <Footer />}
+            {(page > 0 && page != 8) && <Footer />} */ }
           </div>
         );
       }
