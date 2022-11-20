@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import Splash from "./Splash";
+import PortfolioCards from "./PortfolioCards";
 //import "./App.css";
 //import Navbar from "./Navbar";
 //import Footer from "./Footer";
@@ -35,6 +36,7 @@ function App() {
         return (
           <div className="container">
             {(page === "landing") && <Splash pageUpdater={setPage} />}
+            {(page === "portfolio") && <PortfolioCards pageUpdater={setPage} portfolioData={portfolioData} />}
             {/* /*{(page > 0 && page != 8) && <Navbar pageUpdater={setPage} />}
             {(page === 1) && <MenuCard page={page} menuData={appetizers} pageUpdater={setPage} />}
             {(page === 2) && <MenuCard page={page} menuData={breakfast} pageUpdater={setPage} />}
