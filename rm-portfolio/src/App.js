@@ -5,6 +5,7 @@ import axios from "axios";
 import Splash from "./Splash";
 import PortfolioCards from "./PortfolioCards";
 import Footer from "./Footer";
+//import Portfolio from "./Portfolio.json";
 import "./App.css";
 
 function App() {
@@ -12,13 +13,19 @@ function App() {
 
     const [portfolioData, setPortfolioData] = useState([]);
     const [page, setPage] = useState("landing");
-    //console.log(menuData);
     
     useEffect(() => {
-      let endpoint = "https://8000-rdmullins-rmportfolioba-6vga65t3wbs.ws-us78.gitpod.io/api/projects"
+      let endpoint = "Portfolio.json"
       axios.get(endpoint)
-        .then((response)=> setPortfolioData(response.data))
+        .then((response) => setPortfolioData(response.data))
     },[]);
+    
+
+    // useEffect(() => {
+    //   let endpoint = "https://8000-rdmullins-rmportfolioba-6vga65t3wbs.ws-us78.gitpod.io/api/projects"
+    //   axios.get(endpoint)
+    //     .then((response)=> setPortfolioData(response.data))
+    // },[]);
     
         //console.log("Inside App function.");
         //const [post] = React.useState(null);

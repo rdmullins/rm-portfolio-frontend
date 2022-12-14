@@ -1,0 +1,101 @@
+[
+	{
+	  "id": 1,
+	  "tech_stack": {
+		"stack": "React/Python/Django/PostgreSQL"
+	  },
+	  "title": "VoxPublica",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2FVP-DraculaCover.png?alt=media&token=fd1013c5-84cd-42c0-b9f4-2400456659b7",
+	  "repository": "https://github.com/rdmullins/rm-ereader-frontend",
+	  "live_link": "https://rm-ereader.web.app/",
+	  "description": "E-reader and audio book player featuring works from the public domain. This is my capstone project from developer boot camp and features a React web app front end powered by a Django/PostgreSQL database with a Python layer in between."
+	},
+	{
+	  "id": 3,
+	  "tech_stack": {
+		"stack": "HTML/CSS/JS"
+	  },
+	  "title": "Hangman",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2Frm-portfolio-hangman.png?alt=media&token=1f5a0b61-1ed5-4ef9-951c-d8d4ab7616b2",
+	  "repository": "https://glitch.com/edit/#!/roger-hangman?path=README.md%3A1%3A0",
+	  "live_link": "https://roger-hangman.glitch.me",
+	  "description": "An HTML and JavaScript implementation of the classic letter-guessing game. Pulls a random word from a public API and uses the HTML canvas element to update the drawing on the screen after incorrect guesses."
+	},
+	{
+	  "id": 2,
+	  "tech_stack": {
+		"stack": "HTML/CSS/JS"
+	  },
+	  "title": "Pursuit of Trivia",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2FRM-Pursuit-of-Trivia.png?alt=media&token=416a8394-5f74-484b-ab61-a06656bd694c",
+	  "repository": "https://glitch.com/edit/#!/pursuit-of-trivia",
+	  "live_link": "https://pursuit-of-trivia.glitch.me/",
+	  "description": "The capstone project from my Intro to Web Development class. This single-page app uses dynamic rendering and JavaScript DOM manipulation to update content based on user interaction. The general goal was to create a trivia API-driven replacement for the boxes of (often outdated) cards used in... a particular trivia board game."
+	},
+	{
+	  "id": 4,
+	  "tech_stack": {
+		"stack": "HTML/CSS/JS"
+	  },
+	  "title": "Boom Town",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2Frm-portfolio-boomtown.png?alt=media&token=778d6ac1-9410-4505-bd0b-96c945fa25bc",
+	  "repository": "https://glitch.com/edit/#!/stormy-sunset-hurricane",
+	  "live_link": "https://stormy-sunset-hurricane.glitch.me/",
+	  "description": "A web page to accompany a history/research project about nuclear weapons testing in the 1950s. Makes use of the HTML/CSS grid layout system and also features embedded media and extensive custom styling."
+	},
+	{
+	  "id": 5,
+	  "tech_stack": {
+		"stack": "HTML/CSS/JS"
+	  },
+	  "title": "Mind Reader",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2FRM-Portfolio-Mindreader.png?alt=media&token=ccf6c0b7-1a6f-4ade-96e7-15e7b20358b8",
+	  "repository": "https://github.com/rdmullins/mind-reader",
+	  "live_link": "https://rdmullins.github.io/mind-reader/",
+	  "description": "Fun multi-view app that plays a game with the user to give the effect of reading the user's mind. Utilizes page state and dynamic content creation."
+	},
+	{
+	  "id": 6,
+	  "tech_stack": {
+		"stack": "HTML/CSS/JS"
+	  },
+	  "title": "Alarm Clock",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2FRM-Alarm-Clock.png?alt=media&token=b3b9b562-3d67-4612-b936-7bcd083c66d9",
+	  "repository": "https://github.com/rdmullins/alarm-clock",
+	  "live_link": "https://github.com/rdmullins/alarm-clock",
+	  "description": "Alarm clock app that lets the user select a wake-up time. Using the JavaScript Date() object, the app monitors the current system state and alerts the user at their specified time. Features a retro-computing theme."
+	},
+	{
+	  "id": 7,
+	  "tech_stack": {
+		"stack": "React"
+	  },
+	  "title": "Tic-Tac-Toe",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2FRM-Portfolio-TicTacToe.png?alt=media&token=8e9faf54-6124-4a44-ab8f-e83256587513",
+	  "repository": "https://github.com/rdmullins/tic-tac-toe",
+	  "live_link": "https://rdmullins.github.io/tic-tac-toe/",
+	  "description": "React-based implementation of the classic Xs and Os game. Allows for user name input, keeps track of turns and monitors for win conditions."
+	},
+	{
+	  "id": 8,
+	  "tech_stack": {
+		"stack": "HTML/CSS/JS"
+	  },
+	  "title": "Weather App",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2FRM-Portfolio-WeatherApp.png?alt=media&token=070bb2f0-570d-4aa2-bb9b-52c6876c417b",
+	  "repository": "https://github.com/rdmullins/weather-app",
+	  "live_link": "https://github.com/rdmullins/weather-app",
+	  "description": "Utilizes an open weather API to display data about the user's location based on zip code input. Makes use of dynamic content creation using JavaScript's DOM manipulation capabilities."
+	},
+	{
+	  "id": 9,
+	  "tech_stack": {
+		"stack": "HTML/CSS/JS"
+	  },
+	  "title": "To-Do List",
+	  "screenshot": "https://firebasestorage.googleapis.com/v0/b/rm-ereader.appspot.com/o/portfolio%2Frm-portfolio-todo.png?alt=media&token=09d65460-49a0-4913-a2e0-5ede3cc0a179",
+	  "repository": "https://github.com/rdmullins/to-do-list/tree/main/todo",
+	  "live_link": "https://github.com/rdmullins/to-do-list/tree/main/todo",
+	  "description": "Single-page app that uses React, state variables and local storage to help users keep track of tasks."
+	}
+  ]
