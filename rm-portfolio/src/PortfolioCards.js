@@ -2,9 +2,9 @@ function PortfolioCards(props) {
 
     const cardsList = props.portfolioData.map(project => 
         (
-            <div className = 'col-xl-4 col-md-6 col-xxl-3'>
-                <div className="card shadow-lg h-100 text-center card-bg p-2">
-                    <img src={project.screenshot} className="card-img-top" alt="Screenshot of project"/>
+            <div className = 'col-xl-4 col-md-6 col-xxl-4 py-2'>
+                <div className="card shadow-lg h-100 text-center card-bg p-2 mb-2">
+                    <img src={project.screenshot} className="card-img-top img-fluid screenshot" alt="Screenshot of project"/>
                 
                     <div className="card-header"><h5 className="card-title menu-title">{project.title}</h5></div>
                         <div className="card-body">

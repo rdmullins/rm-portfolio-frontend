@@ -4,10 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import Splash from "./Splash";
 import PortfolioCards from "./PortfolioCards";
+import Footer from "./Footer";
 import "./App.css";
-//import "./App.css";
-//import Navbar from "./Navbar";
-//import Footer from "./Footer";
 
 function App() {
     console.log("Started App")
@@ -17,7 +15,7 @@ function App() {
     //console.log(menuData);
     
     useEffect(() => {
-      let endpoint = "https://8000-rdmullins-rmportfolioba-k4rg5x1d2lk.ws-us77.gitpod.io/api/projects/"
+      let endpoint = "https://8000-rdmullins-rmportfolioba-6vga65t3wbs.ws-us78.gitpod.io/api/projects"
       axios.get(endpoint)
         .then((response)=> setPortfolioData(response.data))
     },[]);
@@ -35,21 +33,26 @@ function App() {
         console.log(portfolioData);
     
         return (
+          <>
           <div className="container">
-            {(page === "landing") && <Splash pageUpdater={setPage} />}
-            {(page === "portfolio") && <PortfolioCards pageUpdater={setPage} portfolioData={portfolioData} />}
-            {/* /*{(page > 0 && page != 8) && <Navbar pageUpdater={setPage} />}
-            {(page === 1) && <MenuCard page={page} menuData={appetizers} pageUpdater={setPage} />}
-            {(page === 2) && <MenuCard page={page} menuData={breakfast} pageUpdater={setPage} />}
-            {(page === 3) && <MenuCard page={page} menuData={brunch} pageUpdater={setPage} />}
-            {(page === 4) && <MenuCard page={page} menuData={lunch} pageUpdater={setPage} />}
-            {(page === 5) && <MenuCard page={page} menuData={dinner} pageUpdater={setPage} />}
-            {(page === 6) && <MenuCard page={page} menuData={sides} pageUpdater={setPage} />}
-            {(page === 7) && <MenuCard page={page} menuData={desserts} pageUpdater={setPage} />}
-            {(page === 8) && <Menu pageUpdater={setPage} />}
-            {(page === 9) && <Specials menuData={specials} pageUpdater={setPage} />}
-            {(page > 0 && page != 8) && <Footer />} */ }
+            {(page === "landing") && 
+              <>
+              <Splash 
+                pageUpdater={setPage} />
+              <Footer />
+              </>
+            }
+            {(page === "portfolio") && 
+              <>
+              <PortfolioCards 
+                pageUpdater={setPage} 
+                portfolioData={portfolioData} />
+              <Footer />   
+              </> 
+            }
+
           </div>
+          </>
         );
       }
       

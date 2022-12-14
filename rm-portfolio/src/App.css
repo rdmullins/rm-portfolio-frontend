@@ -8,13 +8,47 @@
     --rm-card-button: #401E0A;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
+a:active {
+    color: var(--rm-body-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--rm-body-text);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--rm-body-text);
+    text-decoration: none;
+}
+
+a:link {
+    color: var(--rm-body-text);
+    text-decoration: none;
+}
+
 body {
     color: var(--rm-body-text);
     background-color: var(--rm-background);
 }
 
+.rm-footer {
+    background-color: var(--rm-background);
+    color: var(--rm-body-text);
+}
+
 h1 {
     font-family: 'Lato', sans-serif;
+}
+
+.screenshot {
+    height: 25vh;
+    max-width: auto;
 }
 
 .btn {
